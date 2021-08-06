@@ -56,6 +56,7 @@ Let’s train different models for recognizing CIFAR-100 classes! Please compare
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/3.PNG)
 
 4. Build a convolutional neural network with two [convolutional layers](https://pytorch.org/docs/master/nn.html#torch.nn.Conv2d), followed by one fully connected layer using [Adam optimizer](https://pytorch.org/docs/stable/optim.html?highlight=gradient%20descent#torch.optim.Adam). (Both Conv1 and Conv2: 16@5x5 filters at stride 2)
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/4.PNG)
 
 5. Now, please replace the strides by a [max pooling](https://pytorch.org/docs/master/nn.html#maxpool2d) operation of stride 2, kernel size 2.
