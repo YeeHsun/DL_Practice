@@ -76,6 +76,8 @@ Let’s train different models for recognizing CIFAR-100 classes! Please compare
 
 8. Train ResNet18 from scratch and compare the result to problem 7.
 
+![](https://github.com/YeeHsun/DL_Practice/blob/master/images/8.PNG)
+
 [***Optional***]
 
 7. Apply [batch normalization](https://pytorch.org/docs/stable/nn.html?highlight=batchnorm#normalization-layers) to your models.
