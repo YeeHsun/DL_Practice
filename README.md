@@ -47,7 +47,7 @@ test_loader = torch.utils.data.DataLoader(
 Let’s train different models for recognizing CIFAR-100 classes! Please compare the convergence time and test accuracy.
 
 1. Build a softmax classification model with [a single linear layer](https://pytorch.org/docs/stable/nn.html#linear-layers) using [stochastic gradient descent (SGD)](https://pytorch.org/docs/stable/optim.html?highlight=gradient%20descent#torch.optim.SGD).  
-! [https://github.com/YeeHsun/DL_Practice/blob/master/images/1.PNG]
+! (https://github.com/YeeHsun/DL_Practice/blob/master/images/1.PNG)
 
 2. Build a 1-hidden layer neural network with 1024 [ReLU units](https://pytorch.org/docs/stable/nn.html#relu) using SGD. This model should improve your test accuracy.
 
