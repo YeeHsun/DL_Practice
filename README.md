@@ -46,13 +46,16 @@ test_loader = torch.utils.data.DataLoader(
 ## Problem sets
 Let’s train different models for recognizing CIFAR-100 classes! Please compare the convergence time and test accuracy.
 
-1. Build a softmax classification model with [a single linear layer](https://pytorch.org/docs/stable/nn.html#linear-layers) using [stochastic gradient descent (SGD)](https://pytorch.org/docs/stable/optim.html?highlight=gradient%20descent#torch.optim.SGD).  
+1. Build a softmax classification model with [a single linear layer](https://pytorch.org/docs/stable/nn.html#linear-layers) using [stochastic gradient descent (SGD)](https://pytorch.org/docs/stable/optim.html?highlight=gradient%20descent#torch.optim.SGD). 
+2.  
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/1.PNG)
 
 2. Build a 1-hidden layer neural network with 1024 [ReLU units](https://pytorch.org/docs/stable/nn.html#relu) using SGD. This model should improve your test accuracy.
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/2.PNG)
 
 3. Try to get better performance by adding more layers and using [learning rate decay](https://pytorch.org/docs/master/optim.html#how-to-adjust-learning-rate).
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/3.PNG)
 
 4. Build a convolutional neural network with two [convolutional layers](https://pytorch.org/docs/master/nn.html#torch.nn.Conv2d), followed by one fully connected layer using [Adam optimizer](https://pytorch.org/docs/stable/optim.html?highlight=gradient%20descent#torch.optim.Adam). (Both Conv1 and Conv2: 16@5x5 filters at stride 2)
@@ -60,12 +63,15 @@ Let’s train different models for recognizing CIFAR-100 classes! Please compare
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/4.PNG)
 
 5. Now, please replace the strides by a [max pooling](https://pytorch.org/docs/master/nn.html#maxpool2d) operation of stride 2, kernel size 2.
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/5.PNG)
 
 6. Apply [dropout](https://pytorch.org/docs/master/nn.html#dropout-layers) to the hidden layer of your models. Note that dropout should only be introduced during training, not evaluation.  
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/6.PNG)
 
 7. Load [ResNet18 pre-trained model](https://pytorch.org/docs/stable/torchvision/models.html#id3) and finetune on the CIFAR-100 dataset.
+
 ![](https://github.com/YeeHsun/DL_Practice/blob/master/images/7.PNG)
 
 8. Train ResNet18 from scratch and compare the result to problem 7.
